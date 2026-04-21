@@ -1,0 +1,5 @@
+[15-Nov-2025 01:20:42 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of variables must match the number of parameters in the prepared statement in C:\xampp\htdocs\utility_billing_system\public\sendSMSfromWeb.php:39
+Stack trace:
+#0 C:\xampp\htdocs\utility_billing_system\public\sendSMSfromWeb.php(39): mysqli_stmt->bind_param('i', 85)
+#1 {main}
+  thrown in C:\xampp\htdocs\utility_billing_system\public\sendSMSfromWeb.php on line 39
